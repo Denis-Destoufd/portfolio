@@ -72,7 +72,7 @@ h2 {
   padding-top: 50px;
 }
 
-#section1{
+#section{
   cursor: pointer;
   border-color: #333333;
   border-style: outset;
@@ -80,7 +80,7 @@ h2 {
 
 .portfolio-item {
   padding: 40px;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   background-color: #f9f9f9;
 }
 
@@ -98,18 +98,21 @@ h2 {
 }
 
 /* media */
-@media all and (max-width: 450px){
+@media all and (max-width: 450px) and (max-height: 900px){
   h2 {
-    font-size: 18px;
+    font-size: 12px;
     margin-bottom: 15px;
-    display: block;
   }
 
   .portfolio-item {
     padding: 20px;
+    font-size: 10px;
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 16px;
+  }
+  .footer{
+    font-size: 10px;
   }
 }
